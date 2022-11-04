@@ -6,4 +6,4 @@ def index(request):
     data = {
         'meetups': meetups
     }
-    return render(request,'meetups/index.html',data)
+    return render(request,'meetups/includes/index.html',data)
